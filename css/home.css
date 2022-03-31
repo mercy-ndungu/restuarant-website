@@ -1,0 +1,41 @@
+body{
+    background-image: url(/images/andy-chilton-0JFveX0c778-unsplash.jpg);
+    background-position: 100%;
+    background-size: cover;
+}
+.container{
+    background: #574105;
+    
+}
+.nav{
+    float: left;
+    
+    
+}
+.container::after{
+    content: "";
+    display: table;
+    
+}
+.nav-bar{
+    float: right;
+    
+}
+
+.nav-bar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar li{
+    display: inline-block;
+    margin-left: 70px;
+}
+.statement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+    padding-left: 200px;
+    color: cyan;
+}

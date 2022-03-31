@@ -1,0 +1,30 @@
+body{
+    background-image: url(/images/andy-chilton-0JFveX0c778-unsplash.jpg);
+    background-position: 100%;
+    background-size: cover;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-right: 20px;
+    border-right: 20px;
+}

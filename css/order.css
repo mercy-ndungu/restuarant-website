@@ -1,0 +1,21 @@
+body{
+    background-image: url(/images/andy-chilton-0JFveX0c778-unsplash.jpg);
+    background-position: 100%;
+    background-size: cover;
+}
+table{
+    width: 400px;
+}
+th{
+    text-align: left;
+}
+table, th, td{
+    border: solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}
+caption{
+    text-align: left;
+}
