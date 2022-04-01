@@ -1,0 +1,49 @@
+body{
+    background-image: url(/images/lauren-mancke-sil2Hx4iupI-unsplash.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+.nav-bar{
+    float: right;
+    
+}
+.container, .nav, .nav-bar, .ul  {
+    background-color: yellow;
+    text-decoration: none;
+}
+.nav-bar, a{
+    text-decoration: none;
+}
+
+.nav-bar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar li{
+    display: inline-block;
+    margin-left: 70px;
+    font-size: 150%;
+}
+.vid{
+    padding-top: 150px;
+    padding-left: 250px;
+    font-size: 170%;
+
+    
+}
+iframe{
+    padding-left: 300px;
+    padding-top: 50px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    padding-left: 30%;
+    background-color: yellow;
+    width: 100%;
+    font-style: normal;
+    height: 5%;
+    font-size: 150%;
+ }

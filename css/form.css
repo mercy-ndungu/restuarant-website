@@ -1,0 +1,95 @@
+body{
+    background-image: url(/images/lauren-mancke-sil2Hx4iupI-unsplash.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+.nav-bar{
+    float: right;
+   color: black;
+    
+
+    
+}
+
+.nav-bar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar li{
+    display: inline-block;
+    margin-left: 70px;
+    font-size: 100%;
+
+    
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    
+}
+a:hover{
+    background-color: yellowgreen;
+    
+    
+}
+ .nav-bar, .ul  {
+    background-color: yellow;
+    text-decoration: none;
+ }
+.regform{
+    padding-left: 10px;
+    margin-right: 50%;
+}
+
+input[type=text] {
+width: 80%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+input[type=form]{
+    margin-right: 300px;
+}
+.gender{
+width: 75%;
+padding: 12px 20px;
+margin: 8px o;
+box-sizing: border-box;
+}
+.phone{
+width: 10%;
+padding: 12px 20px;
+margin: 8px o;
+box-sizing: border-box;
+}
+.Country{
+width: 80%;
+padding: 12px 20px;
+margin: 8px o;
+box-sizing: border-box;
+}
+.Join Us{
+width: 80%;
+padding: 12px 20px;
+margin: 8px o;
+box-sizing: border-box;
+}
+.Date of Birth{
+width: 80%;
+padding: 12px 20px;
+margin: 8px o;
+box-sizing: border-box;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    padding-left: 30%;
+    background-color: yellow;
+    width: 100%;
+    font-style: normal;
+    height: 5%;
+    font-size: 150%;
+ }
+ 

@@ -1,13 +1,51 @@
 body{
-    background-image: url(/images/andy-chilton-0JFveX0c778-unsplash.jpg);
+    background-image: url(/images/lauren-mancke-sil2Hx4iupI-unsplash.jpg);
     background-position: 100%;
     background-size: cover;
 }
+.container, .nav, .nav-bar, .ul .li  {
+    background-color: yellow;
+    text-decoration: none;
+}
+.container, .li{
+    text-decoration: none;
+}
+.nav-bar{
+    float: right;
+    
+}
+.nav-bar, a{
+    text-decoration: none;
+}
+ table, .menu{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border: 5px;
+    border-color: black;
+    font-size: 150%
+}
+
+.nav-bar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-bar li{
+    display: inline-block;
+    margin-left: 70px;
+    font-size: 150%;
+}
+
 table{
-    width: 400px;
+    width: 100%;
+    height: 70px;
+    padding-bottom: 30px;
 }
 th{
     text-align: left;
+}
+table, .tt{
+    margin-top: 30px;
 }
 table, th, td{
     border: solid black;
@@ -18,4 +56,37 @@ th, td{
 }
 caption{
     text-align: left;
+    padding-left: 500px;
+    padding-top: 30px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    padding-left: 30%;
+    background-color: yellow;
+    width: 100%;
+    font-style: normal;
+    height: 5%;
+    font-size: 150%;
+}
+ .button{
+     color: black;
+     border: none;
+     border-color: yellow;
+ }
+ button, .button{
+    background-color: yellow;
+    list-style: none;
+    border: none;
+    border-radius: 6px;
+    width: 150px;
+    height: 70px; 
+    margin-top: 25px;
+    margin-left: 500px;
+    
+}
+button, a{
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
 }
